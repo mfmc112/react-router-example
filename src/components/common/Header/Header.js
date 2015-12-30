@@ -9,8 +9,8 @@ var Header = React.createClass({
       <div className="ui inverted segment">
         <div className="ui grid">
           <MenuOption linkTo="home" linkDescription="Home"/>
-          <MenuOption linkTo="users" linkDescription="Users"/>
-          <MenuOption linkTo="users/12312" linkDescription="User Passing ID"/>
+          <MenuOption linkTo="user" linkDescription="Users"/>
+          <MenuOption linkTo="user/12312" linkDescription="User Passing ID"/>
           <MenuOption linkTo="about" linkDescription="About"/>
         </div>
       </div>
