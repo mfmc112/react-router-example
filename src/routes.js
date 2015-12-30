@@ -10,8 +10,8 @@ var routes = (
   <Route path="/" component={require('./components/App')}>
     <IndexRoute component={require('./components/Home')}/>
     <Route path="/home" component={require('./components/Home')}/>
-    <Route path="/users">
-      <IndexRoute path="/" component={require('./components/Users')}/>
+    <Route path="/user">
+      <IndexRoute component={require('./components/Users')}/>
       <Route path=":userID" component={require('./components/User')}/>
       <Route path="*" component={require('./components/NotFound')}/>
     </Route>
